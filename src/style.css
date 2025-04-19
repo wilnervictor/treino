@@ -23,7 +23,7 @@ body h2{
 }
 main{
     margin: auto;
-    max-width: 900px;
+    max-width: 1265px;
     border-radius: 10px;
     border: 2px solid #FFC704;
     color: white;
@@ -37,4 +37,58 @@ table{
 }
 th, td{
     padding-bottom: 5px;
+}
+div{
+    display: inline-block;
+}
+main ul li {
+    list-style-position: inside;
+    
+}
+#t4{
+    margin-left: 17vw;
+    margin-top: 10px;
+}
+@media (max-width: 900px){
+    main{
+        border: none;
+    }
+    table{
+        margin-bottom: 20px;
+    }
+    #t1{
+        margin-left: 2.5vw;
+    }
+    #t2{
+      margin-left: 15px;
+    }
+    #t3{
+        margin-left: 25vw;
+    }
+    body h2{
+        margin-bottom: 25px;
+    }
+    #t4{
+        margin-left: 2vw;
+        margin-top: 5px;
+    }
+}
+@media (max-width: 700px){
+    main{
+        border: none;
+    }
+    table{
+        margin-bottom: 20px;
+    }
+    #t2{
+      margin-left: 15px;
+    }
+    #t3{
+        margin-left: 1vw;
+    }
+}
+@media (max-width: 1000px){
+    #t1{
+        margin-left: 0px;
+    }
 }
